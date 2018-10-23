@@ -1,0 +1,30 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+div {
+    padding: 1%;
+    text-align: center;
+}
+
+#relative-div {
+    background: #eee;
+    position: relative;
+    padding-bottom: 15%;
+}
+
+#absolute-div {
+    background: #999;
+    position: absolute;
+    top: 40%;
+    right: 8%;
+}
+
+#fixed-div {
+    background: #eee;
+    position: fixed;
+    top: 0px;
+    left: 5%;
+}
+
